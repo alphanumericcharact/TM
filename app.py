@@ -14,7 +14,7 @@ def cargar_modelo():
 
 model = cargar_modelo()
 
-st.title("Reconocimiento de Imágenes")
+st.title("Reconocimiento de celulares, toma una foto")
 
 with st.sidebar:
     st.subheader("Usando un modelo entrenado en Teachable Machine puedes usarlo en esta app para identificar tu dispositivo.")
